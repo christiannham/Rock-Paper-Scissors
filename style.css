@@ -1,0 +1,44 @@
+body {
+  background-color:rgb(91, 215, 224);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.playerChoices {
+  color: rgb(14, 97, 28);
+  display: flex;
+  justify-content: space-around;
+}
+
+.result {
+  text-align: center;
+  color: rgb(14, 97, 28);
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+  background-color: beige;
+  margin: 50px;
+  border-radius: 25px;
+}
+
+.choiceBtn {
+  text-align: center;
+  height: 25%;
+  width: 150px;
+  border-radius: 15px;
+  background-color: rgb(241, 206, 153);
+  color: rgb(25, 21, 20);
+  
+}
+
+.round {
+  background-color: beige;
+  height: 100px;
+  margin: 75px;
+  border-radius: 25px;
+}
